@@ -23,13 +23,21 @@
 <script>
   // Phones go straight to their store; everyone else (and link-preview
   // crawlers, which don't run scripts) gets the page below.
+  // A challenge link (?c=<level>-<score>, shared from a level's result)
+  // opens the game itself when it's installed, falling back to the store.
   (function(){
     var ua = navigator.userAgent || '';
     if(!/Android/i.test(ua)) return;
     var huawei = /HUAWEI|HONOR|HarmonyOS|HMSCore/i.test(ua);
-    location.replace(huawei
+    var store = huawei
       ? 'https://appgallery.huawei.com/app/C119188645'
-      : 'https://play.google.com/store/apps/details?id=com.lumenwell.app');
+      : 'https://play.google.com/store/apps/details?id=com.lumenwell.app';
+    var c = /[?&]c=(\d+-\d+)/.exec(location.search);
+    if(c){
+      location.replace('intent://c/' + c[1] + '#Intent;scheme=hoooplanto;package=com.lumenwell.app;S.browser_fallback_url=' + encodeURIComponent(store) + ';end');
+      return;
+    }
+    location.replace(store);
   })();
 </script>
 <style>
