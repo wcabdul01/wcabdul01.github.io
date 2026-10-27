@@ -1,0 +1,13 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.lumenwell.app",
+      "sha256_cert_fingerprints": [
+        "74:C2:79:BC:3A:46:C9:4C:0A:86:0F:69:67:FE:4E:F7:7B:49:FB:CB:87:32:33:FB:C6:49:D7:02:04:33:50:44",
+        "4E:9F:DB:95:15:95:AB:5F:1D:28:14:B1:ED:55:2C:2F:AE:1A:C1:36:0C:F0:9E:B4:BF:06:BC:27:92:7D:0F:70"
+      ]
+    }
+  }
+]
