@@ -99,6 +99,7 @@
   .store:focus-visible, a:focus-visible{outline:3px solid var(--amber); outline-offset:3px}
   .free{font-size:14px; margin-top:12px}
   video{width:100%; height:auto; border-radius:16px; display:block; background:#000; box-shadow:0 12px 30px rgba(0,0,0,.35)}
+  .yt{width:100%; aspect-ratio:16/9; height:auto; border:0; border-radius:16px; display:block; background:#000; box-shadow:0 12px 30px rgba(0,0,0,.35)}
   .cast{display:grid; grid-template-columns:repeat(auto-fill,minmax(120px,1fr)); gap:12px}
   .cast figure{margin:0; background:var(--card); border:1px solid rgba(255,255,255,.06); border-radius:14px; overflow:hidden}
   .cast img{width:100%; aspect-ratio:400/368; object-fit:cover; display:block}
@@ -136,9 +137,7 @@
 
   <section aria-labelledby="trailer">
     <h2 id="trailer">Meet the crew</h2>
-    <video controls preload="none" playsinline poster="../press/hoooplanto/img/trailer-poster.jpg" width="1920" height="1080">
-      <source src="../press/hoooplanto/files/trailer-16x9.mp4" type="video/mp4">
-    </video>
+    <iframe class="yt" src="https://www.youtube-nocookie.com/embed/dLw1wH9L1Mw" title="Hoooplanto official trailer" loading="lazy" allow="encrypted-media; picture-in-picture; fullscreen" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
   </section>
 
   <section aria-labelledby="cast">
