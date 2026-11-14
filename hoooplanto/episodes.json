@@ -3,6 +3,9 @@
   "episodes": {},
   "videos": {
     "1": { "land": "episodes/e1-land.mp4", "port": "episodes/e1-port.mp4" },
-    "2": { "land": "episodes/e2-land.mp4", "port": "episodes/e2-port.mp4" }
+    "2": { "land": "episodes/e2-land.mp4", "port": "episodes/e2-port.mp4" },
+    "3": { "land": "episodes/e3-land.mp4", "port": "episodes/e3-port.mp4" },
+    "4": { "land": "episodes/e4-land.mp4", "port": "episodes/e4-port.mp4" },
+    "5": { "land": "episodes/e5-land.mp4", "port": "episodes/e5-port.mp4" }
   }
 }
