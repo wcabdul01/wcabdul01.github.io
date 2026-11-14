@@ -1,4 +1,8 @@
 {
   "channel": "",
-  "episodes": {}
+  "episodes": {},
+  "videos": {
+    "1": { "land": "episodes/e1-land.mp4", "port": "episodes/e1-port.mp4" },
+    "2": { "land": "episodes/e2-land.mp4", "port": "episodes/e2-port.mp4" }
+  }
 }
