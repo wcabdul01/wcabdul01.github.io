@@ -169,3 +169,7 @@ xandr.com, 17779, RESELLER
 xandr.com, 7353, RESELLER
 zetaglobal.net, 525, RESELLER
 zmaticoo.com, 5135195, RESELLER
+
+# Meta Audience Network (Retro Arcade: app ID, property ID)
+facebook.com, 1165404889361241, RESELLER, c3e20eee3f780d68
+facebook.com, 1835600290978267, RESELLER, c3e20eee3f780d68
