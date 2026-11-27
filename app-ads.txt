@@ -173,3 +173,6 @@ zmaticoo.com, 5135195, RESELLER
 # Meta Audience Network (Retro Arcade: app ID, property ID)
 facebook.com, 1165404889361241, RESELLER, c3e20eee3f780d68
 facebook.com, 1835600290978267, RESELLER, c3e20eee3f780d68
+
+# Meta Audience Network (Hoooplanto: business ID, covers all its properties)
+facebook.com, 2301221646611196, DIRECT, c3e20eee3f780d68
